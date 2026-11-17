@@ -31,3 +31,20 @@ Os relatórios desenvolvidos servem como fonte de dados para o Dashboard WindCon
 - Salesforce CRM
 - Report Builder
 - Dashboards
+
+## 6. Evidências dos relatórios
+
+### 01. Contratos ativos
+![Contratos ativos](Evidencias/01-contratos-ativos.png)
+
+### 02. Contratos próximos do vencimento
+![Contratos próximos do vencimento](Evidencias/02-contratos-proximos-vencimento.png)
+
+### 03. Solicitações por parque
+![Solicitações por parque](Evidencias/03-solicitacoes-por-parque.png)
+
+### 04. Solicitações por status
+![Solicitações por status](Evidencias/04-solicitacoes-por-status.png)
+
+### 05. Solicitações por prioridade
+![Solicitações por prioridade](Evidencias/05-solicitacoes-por-prioridade.png)
