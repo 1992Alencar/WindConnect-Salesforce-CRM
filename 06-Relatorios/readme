@@ -1,1 +1,33 @@
+# Relatórios — Projeto WindConnect
 
+## 1. Objetivo
+
+Desenvolvimento de relatórios personalizados no Salesforce para acompanhamento gerencial dos contratos de energia e das solicitações de atendimento.
+
+## 2. Relatórios desenvolvidos
+
+| Relatório | Descrição |
+|---|---|
+| RPT_WindConnect_Solicitacoes_Por_Parque | Análise das solicitações por parque eólico. |
+| RPT_WindConnect_Contratos_Prox_Venciment | Identificação dos contratos próximos do vencimento. |
+| Cópia de RPT_WindConnect_Contratos_Ativo | Acompanhamento dos contratos ativos. |
+| RPT_WindConnect_Solicitacoes_Por_Status | Monitoramento das solicitações por status. |
+| RPT_WindConnect_Solicitacoes_Por_Priorid | Análise das solicitações por prioridade. |
+
+## 3. Benefícios
+
+- Acompanhamento dos contratos ativos.
+- Identificação antecipada de contratos próximos do vencimento.
+- Monitoramento das solicitações de atendimento.
+- Análise da distribuição das demandas.
+- Apoio à tomada de decisões operacionais.
+
+## 4. Integração com Dashboard
+
+Os relatórios desenvolvidos servem como fonte de dados para o Dashboard WindConnect — Visão Operacional.
+
+## 5. Tecnologias utilizadas
+
+- Salesforce CRM
+- Report Builder
+- Dashboards
