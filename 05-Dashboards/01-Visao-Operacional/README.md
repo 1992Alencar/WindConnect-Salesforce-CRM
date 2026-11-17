@@ -4,7 +4,7 @@
 
 Dashboard gerencial desenvolvido no Salesforce para acompanhamento dos contratos de energia e das solicitações de atendimento.
 
-## 2. Indicadores
+## 2. Indicadores apresentados
 
 - Valor dos Contratos Ativos.
 - Valor a Vencer em 30 Dias.
