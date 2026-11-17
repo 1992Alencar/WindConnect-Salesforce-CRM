@@ -25,3 +25,11 @@ O registro apresenta dados pessoais e profissionais, informações de comunicaç
 Também permite visualizar o proprietário do contato e seu relacionamento hierárquico com outros registros.
 
 **Objetivo:** centralizar as informações dos contatos e facilitar o gerenciamento do relacionamento comercial entre clientes e empresas.
+
+### Módulo: Detalhamento de Parques Eólicos
+
+O cadastro individual de parques eólicos permite centralizar informações operacionais e administrativas de cada empreendimento.
+
+O registro apresenta nome do parque, localização, capacidade instalada em MW, status operacional, data de início da operação, observações e proprietário do registro.
+
+**Objetivo:** organizar as informações dos empreendimentos e facilitar o acompanhamento operacional por meio da plataforma Salesforce.
