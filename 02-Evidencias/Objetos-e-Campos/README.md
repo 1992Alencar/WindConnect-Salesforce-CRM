@@ -16,7 +16,7 @@ Apresenta a estrutura individual do cadastro, incluindo informações comerciais
 
 Demonstrar a organização e a modelagem das informações utilizadas no CRM WindConnect.
 
-### Módulo: Detalhamento de Contatos
+### 03 - Módulo: Detalhamento de Contatos
 
 A tela de detalhes permite consultar e gerenciar as informações individuais dos contatos cadastrados no WindConnect.
 
@@ -26,10 +26,22 @@ Também permite visualizar o proprietário do contato e seu relacionamento hier�
 
 **Objetivo:** centralizar as informações dos contatos e facilitar o gerenciamento do relacionamento comercial entre clientes e empresas.
 
-### Módulo: Detalhamento de Parques Eólicos
+### 04 - Módulo: Detalhamento de Parques Eólicos
 
 O cadastro individual de parques eólicos permite centralizar informações operacionais e administrativas de cada empreendimento.
 
 O registro apresenta nome do parque, localização, capacidade instalada em MW, status operacional, data de início da operação, observações e proprietário do registro.
 
 **Objetivo:** organizar as informações dos empreendimentos e facilitar o acompanhamento operacional por meio da plataforma Salesforce.
+
+### 05 - Módulo: Detalhamento de Contratos de Energia
+
+A tela de detalhes apresenta as principais informações dos contratos cadastrados no WindConnect, incluindo número do contrato, cliente relacionado, parque eólico, status, datas de vigência e valor contratual.
+
+**Monitoramento de vencimento:**
+
+Foi implementado um alerta visual para identificar contratos cuja data de vencimento foi ultrapassada.
+
+O campo Dias para Vencer permite acompanhar o prazo contratual, enquanto o indicador de vencimento auxilia na identificação de situações que exigem atenção.
+
+**Objetivo:** facilitar o acompanhamento dos contratos e apoiar a gestão dos prazos por meio de recursos de automação e regras de negócio do Salesforce.
