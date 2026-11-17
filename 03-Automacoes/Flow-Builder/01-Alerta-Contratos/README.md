@@ -60,3 +60,49 @@ Essa configuração mantém o campo atualizado conforme os critérios definidos 
 Quando o contrato atende às condições estabelecidas na decisão Verificar Vencimento, o Flow atualiza automaticamente o indicador para Verdadeiro.
 
 Essa configuração permite identificar contratos ativos cujo vencimento ocorrerá dentro dos próximos 30 dias.
+
+## Teste funcional – Contrato CE-0001
+
+Foi realizada uma execução de depuração (Debug) no Salesforce Flow Builder para validar a automação de monitoramento de contratos próximos do vencimento.
+
+### Registro utilizado
+- Contrato: CE-0001.
+- Data de vencimento: 02/12/2026.
+- Dias restantes na data do teste: 15 dias.
+
+### Resultado obtido
+
+A execução foi concluída com sucesso.
+
+O elemento Decision direcionou o registro para o resultado "Dentro dos 30 dias".
+
+Na sequência, o Flow executou a atribuição e a atualização do registro, utilizando o elemento Update Records.
+
+### Conclusão
+
+O teste demonstrou que a automação identifica corretamente um contrato ativo com vencimento dentro do período de 30 dias e executa a atualização do indicador correspondente.
+
+**Observação:** a depuração foi realizada com o modo de reversão ativado, portanto, o teste não representa uma alteração permanente no registro.
+
+## Teste funcional – Contrato CE-0002
+
+Foi realizada uma segunda execução de depuração (Debug) para validar o comportamento da automação diante de um contrato vencido.
+
+### Registro utilizado
+- Contrato: CE-0002.
+- Data de vencimento: 10/11/2026.
+- Status: Ativo.
+
+### Resultado obtido
+
+A execução foi concluída com sucesso.
+
+O elemento Decision direcionou o registro para o resultado padrão "Fora dos 30 dias".
+
+Na sequência, o fluxo executou a atribuição e a atualização do campo "Vence em 30 dias" para Falso.
+
+### Conclusão
+
+O teste demonstrou o funcionamento do segundo caminho da automação, validando a atualização do indicador para contratos que não atendem às condições de vencimento dentro dos próximos 30 dias.
+
+A depuração foi realizada com o modo de reversão ativado, evitando alterações permanentes no registro.
