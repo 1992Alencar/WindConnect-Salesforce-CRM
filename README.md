@@ -53,3 +53,11 @@ Projeto prático em desenvolvimento e documentação.
 Giovani Pereira Alencar
 
 Projeto desenvolvido para fins de aprendizado e demonstração de conhecimentos práticos na plataforma Salesforce.
+
+### Módulo: Detalhamento de Parques Eólicos
+
+O cadastro individual de parques eólicos permite centralizar informações operacionais e administrativas de cada empreendimento.
+
+O registro apresenta nome do parque, localização, capacidade instalada em MW, status operacional, data de início da operação, observações e proprietário do registro.
+
+**Objetivo:** organizar as informações dos empreendimentos e facilitar o acompanhamento operacional por meio da plataforma Salesforce.
