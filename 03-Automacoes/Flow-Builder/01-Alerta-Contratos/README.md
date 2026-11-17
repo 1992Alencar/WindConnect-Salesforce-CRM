@@ -38,6 +38,23 @@ O elemento Update Records foi configurado para atualizar o próprio registro de 
 - Campo atualizado: Vence em 30 dias.
 - Valor atribuído: Verdadeiro.
 
+## Atualização automática – Não Vence em 30 dias
+
+O elemento Update Records atualiza o registro de Contrato de Energia utilizando a variável global `$Record`.
+
+### Configuração
+
+- Objeto: Contrato de Energia.
+- Registro: `$Record`.
+- Campo atualizado: Vence em 30 dias.
+- Valor atribuído: Falso.
+
+### Resultado esperado
+
+Quando o registro não atende a todas as condições estabelecidas na decisão Verificar Vencimento, o indicador é atualizado automaticamente para Falso.
+
+Essa configuração mantém o campo atualizado conforme os critérios definidos na automação.
+
 ### Resultado esperado
 
 Quando o contrato atende às condições estabelecidas na decisão Verificar Vencimento, o Flow atualiza automaticamente o indicador para Verdadeiro.
