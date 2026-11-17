@@ -1,0 +1,28 @@
+## Configuração do Assignment – Preencher Data de Resolução
+
+O elemento Assignment foi desenvolvido para preencher automaticamente a data de resolução de uma solicitação de atendimento.
+
+### Configuração técnica
+
+- Elemento: Assignment.
+- Variável: Data de Resolução do registro.
+- Operador: Igual a.
+- Valor: `$Flow.CurrentDate`.
+
+### Lógica aplicada
+
+Quando uma solicitação é atualizada, o Flow verifica se o status está definido como "Resolvida" e se o campo Data de Resolução está vazio.
+
+Atendendo a essas condições, o elemento Assignment atribui a data atual ao campo correspondente.
+
+### Tecnologia aplicada
+
+- Salesforce Flow Builder.
+- Record-Triggered Flow.
+- Assignment.
+- Variável global `$Flow.CurrentDate`.
+- Fast Field Updates (Before-Save).
+
+### Resultado esperado
+
+Preencher automaticamente a data de resolução, evitando a necessidade de preenchimento manual e mantendo a consistência dos registros.
