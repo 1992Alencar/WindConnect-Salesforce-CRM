@@ -53,3 +53,21 @@ O WindConnect possui um indicador para identificar contratos com vencimento prev
 No exemplo apresentado, o contrato CE-0001 possui 15 dias restantes até o vencimento, apresentando o campo "Vence em 30 dias" marcado.
 
 **Objetivo:** facilitar a identificação antecipada de contratos que necessitam de acompanhamento, permitindo que os responsáveis tomem providências antes do vencimento.
+
+### 06 - Módulo: Solicitações de Atendimento
+
+O módulo permite registrar, consultar e gerenciar solicitações de atendimento relacionadas às operações do WindConnect.
+
+A interface apresenta a listagem dos registros, com identificação individual por número de solicitação e recursos para criação, importação e gerenciamento.
+
+**Objetivo:** centralizar as solicitações de atendimento e facilitar o acompanhamento das demandas relacionadas aos clientes e às operações.
+
+### Módulo: Detalhamento de Solicitações de Atendimento
+
+A tela de detalhes permite consultar e gerenciar as solicitações de atendimento registradas no WindConnect.
+
+O cadastro contempla número da solicitação, prioridade, categoria, status, descrição, data limite e data de resolução.
+
+Também apresenta relacionamentos com Contas, Parques Eólicos e Contratos de Energia.
+
+**Objetivo:** centralizar o gerenciamento das demandas de atendimento, permitindo acompanhar prioridades, responsáveis e situações das solicitações.
