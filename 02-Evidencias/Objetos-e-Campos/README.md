@@ -45,3 +45,11 @@ Foi implementado um alerta visual para identificar contratos cuja data de vencim
 O campo Dias para Vencer permite acompanhar o prazo contratual, enquanto o indicador de vencimento auxilia na identificação de situações que exigem atenção.
 
 **Objetivo:** facilitar o acompanhamento dos contratos e apoiar a gestão dos prazos por meio de recursos de automação e regras de negócio do Salesforce.
+
+### Monitoramento de Contratos Próximos do Vencimento
+
+O WindConnect possui um indicador para identificar contratos com vencimento previsto dentro dos próximos 30 dias.
+
+No exemplo apresentado, o contrato CE-0001 possui 15 dias restantes até o vencimento, apresentando o campo "Vence em 30 dias" marcado.
+
+**Objetivo:** facilitar a identificação antecipada de contratos que necessitam de acompanhamento, permitindo que os responsáveis tomem providências antes do vencimento.
