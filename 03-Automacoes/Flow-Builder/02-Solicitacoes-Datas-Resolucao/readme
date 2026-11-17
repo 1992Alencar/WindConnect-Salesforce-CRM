@@ -26,3 +26,35 @@ Atendendo a essas condições, o elemento Assignment atribui a data atual ao cam
 ### Resultado esperado
 
 Preencher automaticamente a data de resolução, evitando a necessidade de preenchimento manual e mantendo a consistência dos registros.
+
+# Preenchimento Automático da Data de Resolução
+
+Documentação da automação desenvolvida no Salesforce Flow Builder para preencher automaticamente a data de resolução das solicitações de atendimento do projeto WindConnect.
+
+## Objetivo
+Automatizar o preenchimento do campo **Data de Resolução** quando uma solicitação de atendimento estiver com status **Resolvida** e ainda não possuir uma data registrada.
+
+## Configuração do fluxo
+- **Nome:** WF_Solicitacao_Preencher_Data_Resolucao
+- **Tipo:** Fluxo acionado por registro (Record-Triggered Flow).
+- **Objeto:** Solicitação de Atendimento.
+- **Gatilho:** Quando um registro é atualizado.
+- **Otimização:** Atualizações de campo rápidas (Before-Save).
+
+## Lógica aplicada
+1. Verifica se o Status está como Resolvida.
+2. Verifica se a Data de Resolução está vazia.
+3. Utiliza `$Flow.CurrentDate` para preencher a data atual.
+
+## Evidências
+
+| Arquivo | Descrição |
+|---|---|
+| 01-Flow-Preenchimento-Data-Resolucao.png | Estrutura do fluxo no Flow Builder. |
+| 02-Configuracao-Atribuicao-Data-Resolucao.png | Configuração da atribuição da data. |
+| 03-Execucao-Teste-Preenchimento-Data-Resolucao.png | Execução de depuração, demonstrando a atualização da variável. |
+
+## Resultado
+O teste de depuração foi concluído com sucesso, identificando a execução da atribuição.
+
+**Observação:** A gravação definitiva da data no registro ainda precisa ser validada fora do modo de reversão.
