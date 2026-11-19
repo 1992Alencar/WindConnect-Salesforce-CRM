@@ -56,10 +56,12 @@ Projeto desenvolvido para fins de aprendizado e demonstração de conhecimentos 
 
 ## 📂 Navegação do Projeto
 
+## 📂 Navegação do Projeto
+
 Acesse as principais etapas do desenvolvimento:
 
-- [Objetos e Campos](02-Evidencias/Objetos-e-Campos)
-- [Automações – Flow Builder](03-Automacoes/Flow-Builder)
-- [Regras de Negócio e Validações](04-Regras-de-Negocio)
-- [Dashboard Operacional](05-Dashboards/01-Visao-Operacional)
-- [Relatórios](06-Relatorios)
+- [Objetos e Campos](https://github.com/1992Alencar/WindConnect-Salesforce-CRM/tree/main/02-Evidencias/Objetos-e-Campos)
+- [Automações – Flow Builder](https://github.com/1992Alencar/WindConnect-Salesforce-CRM/tree/main/03-Automacoes/Flow-Builder)
+- [Regras de Negócio e Validações](https://github.com/1992Alencar/WindConnect-Salesforce-CRM/tree/main/04-Regras-de-Negocio)
+- [Painel Operacional](https://github.com/1992Alencar/WindConnect-Salesforce-CRM/tree/main/05-Dashboards/01-Visao-Operacional)
+- [Relatórios](https://github.com/1992Alencar/WindConnect-Salesforce-CRM/tree/main/06-Relatorios)
