@@ -54,3 +54,12 @@ Giovani Pereira Alencar
 
 Projeto desenvolvido para fins de aprendizado e demonstração de conhecimentos práticos na plataforma Salesforce.
 
+## 📂 Navegação do Projeto
+
+Acesse as principais etapas do desenvolvimento:
+
+- [Objetos e Campos](02-Evidencias/Objetos-e-Campos)
+- [Automações – Flow Builder](03-Automacoes/Flow-Builder)
+- [Regras de Negócio e Validações](04-Regras-de-Negocio)
+- [Dashboard Operacional](05-Dashboards/01-Visao-Operacional)
+- [Relatórios](06-Relatorios)
